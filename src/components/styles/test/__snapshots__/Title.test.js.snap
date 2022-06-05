@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H4: Virtual DOM snapshot 1`] = `
+.c0 {
+  font-size: 50px;
+}
+
+<h4
+  className="c0"
+/>
+`;

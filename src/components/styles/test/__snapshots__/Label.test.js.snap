@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label: Virtual DOM snapshot 1`] = `
+.c0 {
+  color: #000000b5;
+}
+
+<label
+  className="c0"
+/>
+`;

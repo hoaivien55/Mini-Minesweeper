@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container: Virtual DOM snapshot 1`] = `
+.c0 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: auto;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: white;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Container: change props 1`] = `
+.c0 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: 1px;
+  min-width: 100px;
+  min-height: 101px;
+  padding: 10px;
+  background-color: red;
+}
+
+<div
+  className="c0"
+  width="1px"
+/>
+`;

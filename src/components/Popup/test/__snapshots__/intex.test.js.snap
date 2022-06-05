@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup: Virtual DOM snapshot 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.c5 {
+  min-width: 120px;
+  background: #65dfa1;
+  border: none;
+  height: 30px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.c5:hover {
+  opacity: 0.8;
+}
+
+.c0 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #76c3c34d;
+  z-index: 100;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 12px;
+}
+
+.c2 {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 .paragraph {
+  font-size: 25px;
+}
+
+.c4 {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #80808030;
+}
+
+.c4 button:first-child {
+  margin-right: 15px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 paragraph"
+      >
+        hello there
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <button
+        className="c5"
+        onClick={[Function]}
+      >
+        Accept
+      </button>
+      <button
+        className="c5"
+        onClick={[Function]}
+      >
+        Reject
+      </button>
+    </div>
+  </div>
+</div>
+`;

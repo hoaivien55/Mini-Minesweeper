@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopupBodyStyle: Virtual DOM snapshot 1`] = `
+.c0 {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .paragraph {
+  font-size: 25px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PopupContainerStyle: Virtual DOM snapshot 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 12px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PopupContainerStyle: Virtual DOM snapshot change max-width and max-height 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  max-width: 1px;
+  max-height: 1px;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 12px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PopupFooter: Virtual DOM snapshot 1`] = `
+.c0 {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #80808030;
+}
+
+.c0 button:first-child {
+  margin-right: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PopupStyle: Virtual DOM snapshot 1`] = `
+.c0 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #76c3c34d;
+  z-index: 100;
+}
+
+<div
+  className="c0"
+/>
+`;

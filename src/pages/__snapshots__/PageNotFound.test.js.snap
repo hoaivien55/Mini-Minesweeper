@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNotFound: Virtual DOM snapshot 1`] = `
+.c0 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: auto;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    style={
+      Object {
+        "fontSize": "70px",
+      }
+    }
+  >
+    404
+  </div>
+  <div
+    className="c1"
+  >
+    Page not found.
+  </div>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Home page
+  </a>
+</div>
+`;

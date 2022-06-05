@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button: Virtual DOM snapshot 1`] = `
+.c0 {
+  min-width: 120px;
+  background: #65dfa1;
+  border: none;
+  height: 30px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.c0:hover {
+  opacity: 0.8;
+}
+
+<button
+  className="c0"
+/>
+`;

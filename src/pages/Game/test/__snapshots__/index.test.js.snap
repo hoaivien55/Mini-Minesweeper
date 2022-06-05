@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game: Virtual DOM snapshot 1`] = `
+.c0 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: auto;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  color: red;
+}
+
+.c5 {
+  border: 3px solid;
+  border-color: #f7e8ae #bab7a9 #bab7a9 #dbd5b9;
+  min-width: 30px;
+  height: 30px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.c5.flag::before {
+  content: "🚩";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-30%);
+  -ms-transform: translate(-50%,-30%);
+  transform: translate(-50%,-30%);
+}
+
+.c5.boom {
+  background-color: #cecab7;
+  border-color: #9c998d;
+}
+
+.c5.boom::before {
+  content: "💣";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-30%);
+  -ms-transform: translate(-50%,-30%);
+  transform: translate(-50%,-30%);
+}
+
+.c5.empty,
+.c5.num {
+  background-color: #cecab7;
+  border-color: #9c998d;
+  color: black;
+}
+
+.c4 {
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  border: 10px solid #a5a08d;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  font-size: 1.1em;
+}
+
+.c2 > div:not(:first-child) {
+  border-left: 1px solid #80808091;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    >
+      Level: 
+      Beginner
+    </div>
+    <div
+      className="c3"
+    >
+      00:00:00
+    </div>
+    <div
+      className="c3"
+      title="Right-click an close square to flag it and no limit flag"
+    >
+      ❓
+    </div>
+  </div>
+  <div
+    className="c4"
+  >
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+    <div
+      className="c5 close"
+      color=""
+      onClick={[Function]}
+      onContextMenu={[Function]}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c6"
+    />
+  </div>
+</div>
+`;
