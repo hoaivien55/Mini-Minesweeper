@@ -1,5 +1,9 @@
 import { fetchMines } from "..";
 
+afterEach(() => {
+	global.fetch.mockClear();
+});
+
 test("fetchMines: succeed", async () => {
 	global.fetch = jest.fn(() =>
 		Promise.resolve({

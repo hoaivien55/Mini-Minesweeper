@@ -1,4 +1,3 @@
-import { CHANGE_GAME_LEVEL } from "../store/actions";
 
 const SQUARE_TYPES = {
 	FLAG: "flag",
@@ -76,7 +75,7 @@ const getCacheGameInfo = () => {
 	return null;
 };
 
-const getLevelSelectedObj = (levels, levelSelected, dispatch) => {
+const getLevelSelectedObj = (levels, levelSelected) => {
 	let _levelSelected = 1;
 	if (levelSelected) {
 		_levelSelected = levelSelected;
@@ -84,10 +83,6 @@ const getLevelSelectedObj = (levels, levelSelected, dispatch) => {
 		const info = getCacheGameInfo();
 		if (info) {
 			_levelSelected = info.levelSelected || 1;
-			dispatch({
-				type: CHANGE_GAME_LEVEL,
-				payload: {levelSelected: _levelSelected}
-			});
 		}
 	}
 	return levels.find((level) => level.id === parseInt(_levelSelected));

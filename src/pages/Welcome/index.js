@@ -16,6 +16,7 @@ import {
 } from "../../components/styles";
 import { Store } from "../../store";
 import { CHANGE_GAME_LEVEL, FETCH_DATA } from "../../store/actions";
+import { getLevelSelectedObj } from "../../utils";
 
 import { WelcomeContainerStyle, WelComeHeaderStyle } from "./WelcomeStyle";
 
@@ -71,9 +72,7 @@ const Welcome = () => {
 			payload: formState,
 		});
 		const { levels } = appState;
-		const level = levels.find(
-			(level) => level.id === parseInt(formState.levelSelected)
-		);
+		const level = getLevelSelectedObj(levels, formState.levelSelected);
 		if (level) {
 			const { mines, size } = level;
 			const data = await fetchMines({ mines, size });

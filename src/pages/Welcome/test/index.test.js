@@ -17,6 +17,10 @@ jest.mock("react-router-dom", () => ({
 	useNavigate: () => mockedUsedNavigate,
 }));
 
+afterAll(() => {
+	jest.clearAllMocks();
+})
+
 test("Welcome: renders page", async () => {
 	act(() => {
 		render(
@@ -70,6 +74,6 @@ test("Welcome: submit form", async () => {
 	});
 	let submitButton = screen.getByDisplayValue("Start");
 	fireEvent.click(submitButton);
-	jest.clearAllMocks();
+	// jest.clearAllMocks();
     await waitFor(() => expect(mockedUsedNavigate).toBeCalledTimes(1))
 });

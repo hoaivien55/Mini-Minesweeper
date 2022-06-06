@@ -25,7 +25,7 @@ const Game = () => {
 	const [_error, _setError] = useState("");
 
 	const { rawMines, levels, levelSelected } = appState;
-	const level = getLevelSelectedObj(levels, levelSelected, dispatch);
+	const level = getLevelSelectedObj(levels, levelSelected);
 	const { size } = level;
 	const timerRef = useRef();
 
@@ -85,7 +85,7 @@ const Game = () => {
 	};
 
 	const _getLevelName = () => {
-		const level = getLevelSelectedObj(levels, levelSelected, dispatch);
+		const level = getLevelSelectedObj(levels, levelSelected);
 		// console.log("level", level);
 		return (level && level.name) || "";
 	};
