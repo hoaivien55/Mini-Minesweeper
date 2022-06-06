@@ -1,3 +1,4 @@
+import { cacheGameInfo } from "../utils";
 import { FETCH_DATA, CHANGE_GAME_LEVEL } from "./actions";
 
 function reducer(state, action) {
@@ -7,6 +8,7 @@ function reducer(state, action) {
 			return { ...state, rawMines: action.payload };
 		case CHANGE_GAME_LEVEL:
 			// console.log(CHANGE_GAME_LEVEL);
+			cacheGameInfo(action.payload);
 			return { ...state, ...action.payload };
 		default:
 			return state;

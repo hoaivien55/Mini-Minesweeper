@@ -6,7 +6,7 @@ export const Store = createContext("");
 
 const defaultState = {
 	userName: "Adam",
-	levelSelected: 1,
+	levelSelected: null,
 	matrix: [],
 	rawMines: [],
 	levels: [

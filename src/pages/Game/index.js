@@ -9,6 +9,7 @@ import { Store } from "../../store";
 import GameBox from "./components/GameBox";
 import Header from "./components/Header";
 import Loader from "../../components/Loader";
+import { getLevelSelectedObj } from "../../utils";
 
 const Game = () => {
 	const navigate = useNavigate();
@@ -24,7 +25,7 @@ const Game = () => {
 	const [_error, _setError] = useState("");
 
 	const { rawMines, levels, levelSelected } = appState;
-	const level = levels.find((level) => level.id === parseInt(levelSelected));
+	const level = getLevelSelectedObj(levels, levelSelected, dispatch);
 	const { size } = level;
 	const timerRef = useRef();
 
@@ -84,7 +85,7 @@ const Game = () => {
 	};
 
 	const _getLevelName = () => {
-		const level = levels.find((level) => level.id === parseInt(levelSelected));
+		const level = getLevelSelectedObj(levels, levelSelected, dispatch);
 		// console.log("level", level);
 		return (level && level.name) || "";
 	};

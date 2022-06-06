@@ -103,7 +103,7 @@ const Welcome = () => {
 					</Column>
 					<Column flexGrow={4}>
 						<Select
-							value={formState.levelSelected}
+							value={formState.levelSelected || 1}
 							onChange={(event) => changeFormValue(FORM_FIELDS.LEVEL, event)}
 						>
 							{levels.map((level) => (

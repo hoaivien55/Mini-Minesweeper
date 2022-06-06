@@ -1,24 +1,26 @@
+import { CHANGE_GAME_LEVEL } from "../store/actions";
+
 const SQUARE_TYPES = {
 	FLAG: "flag",
 	BOOM: "boom",
 	EMPTY: "empty",
 	NUM: "num",
 	CLOSE: "close",
-	OPEN: "open"
+	OPEN: "open",
 };
+
+const CACHE_GAME_KEY = "minisweeper";
 
 const generateGameMap = (data, size) => {
 	const matrix = [];
 	// create matrix
 	for (let y = 0; y < size; y++) {
-		const row = new Array(size)
-			.fill({})
-			.map((_) => ({
-				type: SQUARE_TYPES.EMPTY,
-				status: SQUARE_TYPES.CLOSE,
-				num: 0,
-				flag: false
-			}));
+		const row = new Array(size).fill({}).map((_) => ({
+			type: SQUARE_TYPES.EMPTY,
+			status: SQUARE_TYPES.CLOSE,
+			num: 0,
+			flag: false,
+		}));
 		matrix.push(row);
 	}
 	// add mines
@@ -62,5 +64,40 @@ const generateGameMap = (data, size) => {
 	return matrix;
 };
 
-export { SQUARE_TYPES, generateGameMap};
+const cacheGameInfo = (info) => {
+	sessionStorage.setItem(CACHE_GAME_KEY, JSON.stringify(info));
+};
+
+const getCacheGameInfo = () => {
+	const cache = sessionStorage.getItem(CACHE_GAME_KEY);
+	if (cache) {
+		return JSON.parse(cache);
+	}
+	return null;
+};
+
+const getLevelSelectedObj = (levels, levelSelected, dispatch) => {
+	let _levelSelected = 1;
+	if (levelSelected) {
+		_levelSelected = levelSelected;
+	} else {
+		const info = getCacheGameInfo();
+		if (info) {
+			_levelSelected = info.levelSelected || 1;
+			dispatch({
+				type: CHANGE_GAME_LEVEL,
+				payload: {levelSelected: _levelSelected}
+			});
+		}
+	}
+	return levels.find((level) => level.id === parseInt(_levelSelected));
+};
+
+export {
+	SQUARE_TYPES,
+	generateGameMap,
+	cacheGameInfo,
+	getCacheGameInfo,
+	getLevelSelectedObj,
+};
 // console.table(generateGameMap(testData2, 16));
